@@ -1,0 +1,6 @@
+Create a web application to create a jsp page named index.jsp with the given screen design.
+When u click the show button , dispaly the name attached with Welcome User .. in the same page.
+
+
+Note : Use only JSP files for this application (Dont use Servlet or HTML). Because in JSP we can include HTML and Java Code together.
+JSP is used for dynamic web pages..
