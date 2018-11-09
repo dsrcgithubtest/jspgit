@@ -3,7 +3,6 @@ WORKDIR /app
 RUN git clone https://github.com/dsrcgithubtest/jspgit.git
 
 FROM maven:3.5-jdk-8-alpine as build 
-RUN mvn install
 
 ADD /target/JspDay1Q1-0.0.1-SNAPSHOT.war dsrcdemo.war
 ENTRYPOINT ["java","-jar","dsrcdemo.war","--httpPort=9999"]
